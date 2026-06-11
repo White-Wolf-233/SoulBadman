@@ -1,0 +1,20 @@
+# Soul Badman 依赖
+# 核心工具均为纯 Python，零 C 扩展依赖
+
+# 法条检索 & 赔偿计算
+# (无外部依赖 — 纯 Python 标准库)
+
+# 判例 RAG（Chromadb）
+chromadb>=0.4.0
+
+# 判例采集（wenshu_miner.py）
+requests>=2.28.0
+
+# 公开媒体搜索（media_miner.py）
+# (无外部依赖 — 纯 Python 标准库 urllib)
+
+# 咨询存储
+# (无外部依赖 — sqlite3 内置)
+
+# 开发依赖
+pytest>=7.0.0
